@@ -1,5 +1,5 @@
 
-# University circuit design in cisco packet tracer
+# University Circuit Design in Cisco Packet Tracer
 
-In this circuit, Static IP assignment,RIP routing protocol,DNS server,SMTP and POP3 server,FTP server,HTTP server implemented using cisco packet tracer.
+Static IP assignment,RIP routing protocol,DNS server,SMTP and POP3 server,FTP server,HTTP server implemented using cisco packet tracer.
 
