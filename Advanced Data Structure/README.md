@@ -20,22 +20,27 @@ This data structure has many applications, including range queries in databases,
 
 Run this "WeightedsumOfIntervals/index.html" file to get interface of System of Weighted Intervals and Its Sum Function
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+<img src="images/img2.png" >
 
 After entering the number of Intervals , press on TryIt button then enter the starting,ending and weight of intervals.
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+<img src="images/img3.png" >
 
 Press chart button to generate graph of interval system.  
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+<img src="images/img4.png" >
 
 Press Sum Button to generate Sum of Weighted Intervals System.
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+<img src="images/img5.png" >
 
 Press "Generate Tree", then enter starting and ending position of intervals to generate segment tree. max generates larger parents among two children using bottom up approach as well as min works.
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+<img src="images/img6.png" >
 
 we can identify which nodes are between given range of intervals using "find" button.
