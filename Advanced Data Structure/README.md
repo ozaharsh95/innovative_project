@@ -16,7 +16,7 @@ This data structure has many applications, including range queries in databases,
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+❮img src="images/img1.png" ❯
 
 Run this "WeightedsumOfIntervals/index.html" file to get interface of System of Weighted Intervals and Its Sum Function
 
