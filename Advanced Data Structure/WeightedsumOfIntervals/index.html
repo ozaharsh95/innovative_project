@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+    }
+    .chartMenu {
+      width: 100vw;
+      height: 60px;
+      background: #1A1A1A;
+      color: rgba(54, 162, 235, 1);
+    }
+    .chartMenu p {
+      padding: 10px;
+      font-size: 20px;
+    }
+    .chartCard1 {
+      width: 100vw;
+      height: calc(100vh - 40px);
+      background: rgba(54, 162, 235, 0.2);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .chartCard2 {
+      width: 100vw;
+      height: calc(100vh - 40px);
+      background: rgba(54, 162, 235, 0.2);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .chartBox1 {
+      width: 700px;
+      padding: 20px;
+      border-radius: 20px;
+      border: solid 3px rgba(54, 162, 235, 1);
+      background: white;
+    }
+    .chartBox2 {
+      width: 700px;
+      padding: 20px;
+      border-radius: 20px;
+      border: solid 3px rgba(54, 162, 235, 1);
+      background: white;
+    }
+    button{
+      border-radius: 5px;
+      border: 2px solid black;
+      padding: 5px 5px;
+      margin: 5px 5px;
+
+    }
+    input{
+      padding: 5px 5px;
+    }
+  </style>
+<script src="logic.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js/dist/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+<body>
+    <h3>ADS INNOVATIVE PROJECT BY 20BCE242 AND 20BCE182</h3>
+    <BR>
+    Enter the Number Of Intervals:
+    <input type="number" id="myNumber" value="0">
+      <br>
+    <button type="button" onclick="myFunction()">Try it</button>
+    <button type="button" onclick="myFunction2()">Chart</button>
+    <button type="button" onclick="myfuncAns()">Sum</button>
+    <a href="/treeVIsulaztion/index.html"><button type="button" >Generate Tree</button></a>
+    <div class="chartMenu">
+        <p><span id="chartVersion"></span><br>SYSTEM OF WEIGHTED INTERVALS AND ITS SUM FUNCTION</p>
+       
+    </div>
+      <div class="chartCard1">
+        <div class="chartBox1">
+          <canvas id="myChart1"></canvas>
+        </div>
+      </div>
+      <div class="chartMenu">
+        <p>SUM FUNCTION</p>
+       
+    </div>
+      <div class="chartCard2">
+        <div class="chartBox2">
+          <canvas id="myChart2"></canvas>
+        </div>
+      </div>
+</body>
+</html>
